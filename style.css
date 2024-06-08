@@ -33,6 +33,7 @@ main{
     outline: none;
     font-size: 1.6rem;
     font-weight: 700;
+    box-shadow: 0 0 2px beige;
 }
 
 ul{
@@ -40,16 +41,27 @@ ul{
 }
 
 ul li {
+    position: relative;
+    box-shadow: 0 0 2px beige;
     background-color: aquamarine;
     font-size: 1.5rem;
     width: 95%;
     margin:10px auto ;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 45px 10px 15px;
     font-weight: 600;
+    text-align: justify;
 }
 
 i{
-    float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
     font-size: 1.3rem;
+}
+
+.tick{
+    text-decoration: line-through;
+    color: red;
+    background-color: rgb(202, 117, 117);
 }
